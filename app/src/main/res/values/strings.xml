@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DecisionApp</string>
+
+    <string name="random_text">The best choice for you is...</string>
+    <string name="random_button">Choose</string>
+    <string name="new_question_title">Title:</string>
+    <string name="new_question_question">Question:</string>
+    <string name="new_question_option">New option:</string>
+    <string name="new_question_options_list">Added options: </string>
+</resources>

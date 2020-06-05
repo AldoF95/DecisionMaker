@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/question_display_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/question_display_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80sp"
+            android:textColor="#FFFFFF"/>
+
+
+        <LinearLayout
+            android:id="@+id/options_display_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/random_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/random_button"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="20dp"
+        android:background="@drawable/random_button"/>
+</FrameLayout>
